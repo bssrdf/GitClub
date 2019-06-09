@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tellh.com.gitclub">
+    package="tellh.com.gitclub"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-sdk tools:overrideLibrary="com.aurelhubert.ahbottomnavigation, com.github.paolorotolo.appintro,
+      com.daasuu.ei, com.sackcentury.shinebuttonlib, tellh.com.recyclertreeview_lib,
+      tellh.nolistadapter_rv, tellh.nolistadapter_common"/>
+
 
     <!-- umeng ShareSDK -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
